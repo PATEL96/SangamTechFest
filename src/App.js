@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Router basename="/">
+        <Router basename="/SangamTechFest">
           <Navbar />
           <Routes>
             <Route exact path='/' element={<Home />} />
