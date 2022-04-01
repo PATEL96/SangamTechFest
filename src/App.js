@@ -15,9 +15,10 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Router basename="/SangamTechFest/">
+        <Router basename="/SangamTechFest">
           <Navbar />
           <Routes>
+            <Route exact path='/SangamTechFest' element={<Home />} />
             <Route exact path='/SangamTechFest/it-ce-ai-ds' element={<ItCeAiDS />} />
             <Route exact path='/SangamTechFest/ec-ece-ict' element={<EcIct />} />
             <Route exact path='/SangamTechFest/mechanical' element={<Mechanical />} />
