@@ -15,15 +15,14 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Router basename="/SangamTechFest">
+        <Router basename="/SangamTechFest/">
           <Navbar />
           <Routes>
-            <Route exact path='/' element={<Home />} />
             <Route exact path='/SangamTechFest/it-ce-ai-ds' element={<ItCeAiDS />} />
             <Route exact path='/SangamTechFest/ec-ece-ict' element={<EcIct />} />
             <Route exact path='/SangamTechFest/mechanical' element={<Mechanical />} />
             <Route exact path='/SangamTechFest/automobile' element={<Automobile />} />
-            <Route exact path='/SangamTechFest/civil-environment' element={<CivilEnv />} />
+            <Route exact path='/SangamTechFest/civil' element={<CivilEnv />} />
             <Route exact path='/SangamTechFest/chemical' element={<Chemical />} />
             <Route exact path='/SangamTechFest/common' element={<Common />} />
             <Route exact path='/SangamTechFest/developers' element={<About />} />
