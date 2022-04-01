@@ -11,7 +11,7 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="Logo" >
-                <Link to='/CollegeFest/' className="Sangam">
+                <Link to='/' className="Sangam">
                     <img src={logo} height="70" alt='none' />
                 </Link>
             </div>
