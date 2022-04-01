@@ -18,15 +18,15 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route exact path='/' element={<Home />} />
-            <Route exact path='/it-ce-ai-ds' element={<ItCeAiDS />} />
-            <Route exact path='/ec-ece-ict' element={<EcIct />} />
-            <Route exact path='/mechanical' element={<Mechanical />} />
-            <Route exact path='/automobile' element={<Automobile />} />
-            <Route exact path='/civil-environment' element={<CivilEnv />} />
-            <Route exact path='/chemical' element={<Chemical />} />
-            <Route exact path='/common' element={<Common />} />
-            <Route exact path='/developers' element={<About />} />
+            <Route exact path='/CollegeFest/' element={<Home />} />
+            <Route exact path='/CollegeFest/it-ce-ai-ds' element={<ItCeAiDS />} />
+            <Route exact path='/CollegeFest/ec-ece-ict' element={<EcIct />} />
+            <Route exact path='/CollegeFest/mechanical' element={<Mechanical />} />
+            <Route exact path='/CollegeFest/automobile' element={<Automobile />} />
+            <Route exact path='/CollegeFest/civil-environment' element={<CivilEnv />} />
+            <Route exact path='/CollegeFest/chemical' element={<Chemical />} />
+            <Route exact path='/CollegeFest/common' element={<Common />} />
+            <Route exact path='/CollegeFest/developers' element={<About />} />
           </Routes>
         </Router>
       </div>
