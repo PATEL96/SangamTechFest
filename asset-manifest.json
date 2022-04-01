@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CollegeFest/static/css/main.62f922d0.css",
-    "main.js": "/CollegeFest/static/js/main.09130b90.js",
+    "main.js": "/CollegeFest/static/js/main.c27f890c.js",
     "static/media/Eng Poster Final-01.png": "/CollegeFest/static/media/Eng Poster Final-01.fb136d1a146255d6c952.png",
     "static/media/Pink back.png": "/CollegeFest/static/media/Pink back.768dbbd66186813c8def.png",
     "static/media/Blue back.jpeg": "/CollegeFest/static/media/Blue back.6a6a042ea33f410a1a45.jpeg",
@@ -45,10 +45,10 @@
     "static/media/vinit1.png": "/CollegeFest/static/media/vinit1.23bd53a100b5c9cc44c3.png",
     "index.html": "/CollegeFest/index.html",
     "main.62f922d0.css.map": "/CollegeFest/static/css/main.62f922d0.css.map",
-    "main.09130b90.js.map": "/CollegeFest/static/js/main.09130b90.js.map"
+    "main.c27f890c.js.map": "/CollegeFest/static/js/main.c27f890c.js.map"
   },
   "entrypoints": [
     "static/css/main.62f922d0.css",
-    "static/js/main.09130b90.js"
+    "static/js/main.c27f890c.js"
   ]
 }
