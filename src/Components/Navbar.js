@@ -16,42 +16,42 @@ function Navbar() {
                 </Link>
             </div>
             <ul className={isMobile ? ("nav-link") : ("nav-link-mobile")} onClick={() => setIsMobile(true)} >
-                <Link to='/it-ce-ai-ds' className="links" >
+                <Link to='/SangamTechFest/it-ce-ai-ds' className="links" >
                     <li className="it">
                         CE/IT/AI&DS/CS
                     </li>
                 </Link>
-                <Link to='/ec-ece-ict' className="links" >
+                <Link to='/SangamTechFest/ec-ece-ict' className="links" >
                     <li className="ce">
                         EE/ECE/ICT
                     </li>
                 </Link>
-                <Link to='/mechanical' className="links" >
+                <Link to='/SangamTechFest/mechanical' className="links" >
                     <li className="mechanical">
                         Mechanical & Mechatronics
                     </li>
                 </Link>
-                <Link to='/automobile' className="links" >
+                <Link to='/SangamTechFest/automobile' className="links" >
                     <li className="automobile">
                         Automobile
                     </li>
                 </Link>
-                <Link to='/civil' className="links" >
+                <Link to='/SangamTechFest/civil' className="links" >
                     <li className="civil">
                         Civil
                     </li>
                 </Link>
-                <Link to='/chemical' className="links" >
+                <Link to='/SangamTechFest/chemical' className="links" >
                     <li className="chemical">
                         Chemical
                     </li>
                 </Link>
-                <Link to='/common' className="links" >
+                <Link to='/SangamTechFest/non-technical' className="links" >
                     <li className="common">
                         Non-Technical
                     </li>
                 </Link>
-                <Link to='/developers' className="links" >
+                <Link to='/SangamTechFest/developers' className="links" >
                     <li className="developers">
                         Developers
                     </li>
