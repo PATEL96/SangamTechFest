@@ -16,7 +16,7 @@ function EcEceIct() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://github.com/PATEL96' className='form-link' >
+                        <a href='https://forms.gle/j6q5MKWnrghTH2Dv8' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -27,7 +27,7 @@ function EcEceIct() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://github.com/PATEL96' className='form-link' >
+                        <a href='https://forms.gle/3HTMue7MteShXjTLA' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -40,7 +40,7 @@ function EcEceIct() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://github.com/PATEL96' className='form-link' >
+                        <a href='https://forms.gle/XsYnyNJfjv5rg3Nn6' className='form-link' >
                             Register Here
                         </a>
                     </button>
