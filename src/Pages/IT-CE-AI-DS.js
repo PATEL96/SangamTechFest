@@ -17,7 +17,7 @@ function ItCeAiDs() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/yZsemhgVenkPFzYUA' className='form-link' >
+                        <a href='https://forms.gle/A6JdgE21sbBeVFuw5' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -28,7 +28,7 @@ function ItCeAiDs() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://github.com/PATEL96' className='form-link' >
+                        <a href='https://forms.gle/uuCx65Yrt3A6VuF4A' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -41,7 +41,7 @@ function ItCeAiDs() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://github.com/PATEL96' className='form-link' >
+                        <a href='https://forms.gle/EzYdEMjX6TPb7V2FA' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -52,7 +52,7 @@ function ItCeAiDs() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://github.com/PATEL96' className='form-link' >
+                        <a href='https://forms.gle/Y7VoKLaRAUuNtiPm7' className='form-link' >
                             Register Here
                         </a>
                     </button>
