@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SangamTechFest/static/css/main.aad3cb08.css",
-    "main.js": "/SangamTechFest/static/js/main.44b81a8e.js",
+    "main.js": "/SangamTechFest/static/js/main.0bb5fd80.js",
     "static/media/Eng Poster Final-01.png": "/SangamTechFest/static/media/Eng Poster Final-01.fb136d1a146255d6c952.png",
     "static/media/Pink back.png": "/SangamTechFest/static/media/Pink back.768dbbd66186813c8def.png",
     "static/media/Blue back.jpeg": "/SangamTechFest/static/media/Blue back.6a6a042ea33f410a1a45.jpeg",
@@ -45,10 +45,10 @@
     "static/media/vinit1.png": "/SangamTechFest/static/media/vinit1.23bd53a100b5c9cc44c3.png",
     "index.html": "/SangamTechFest/index.html",
     "main.aad3cb08.css.map": "/SangamTechFest/static/css/main.aad3cb08.css.map",
-    "main.44b81a8e.js.map": "/SangamTechFest/static/js/main.44b81a8e.js.map"
+    "main.0bb5fd80.js.map": "/SangamTechFest/static/js/main.0bb5fd80.js.map"
   },
   "entrypoints": [
     "static/css/main.aad3cb08.css",
-    "static/js/main.44b81a8e.js"
+    "static/js/main.0bb5fd80.js"
   ]
 }
