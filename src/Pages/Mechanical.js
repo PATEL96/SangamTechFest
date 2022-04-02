@@ -16,7 +16,7 @@ function Mechanical() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://github.com/PATEL96' className='form-link' >
+                        <a href='https://forms.gle/uuJ4qxM8hvczL61h9' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -27,7 +27,7 @@ function Mechanical() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://github.com/PATEL96' className='form-link' >
+                        <a href='https://forms.gle/d4g1ZG7PbfsAt8mQA' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -40,7 +40,7 @@ function Mechanical() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://github.com/PATEL96' className='form-link' >
+                        <a href='https://forms.gle/eyGrBP8wxv9XnJpy9' className='form-link' >
                             Register Here
                         </a>
                     </button>
