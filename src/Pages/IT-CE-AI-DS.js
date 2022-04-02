@@ -52,7 +52,7 @@ function ItCeAiDs() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/Y7VoKLaRAUuNtiPm7' className='form-link' >
+                        <a href='https://forms.gle/46Uz57jbE2uCC8nU9' className='form-link' >
                             Register Here
                         </a>
                     </button>
