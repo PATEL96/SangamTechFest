@@ -1,3 +1,40 @@
+.notice-main {
+    box-shadow: 0px 1px 7px 1px #000;
+    background-color: rgba(255, 255, 255, 0.45);
+    border-radius: 10px;
+    width: fit-content;
+    padding: 15px;
+}
+
+.cont-notice {
+    padding: 25px;
+}
+
+.notice,
+.form-link {
+    font-family: sans-serif;
+    background: linear-gradient(85deg, #ff0000, #ffbf00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+    font-size: 26px;
+    font-weight: 600;
+    background-size: 400%;
+    letter-spacing: 1.5px;
+    word-spacing: 1.5px;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 400%;
+    }
+
+    100% {
+        background-position: 0%;
+    }
+}
+
 .rules {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 15px;
@@ -26,6 +63,7 @@
 
 .qrImage {
     transition: all 0.5s ease-in;
+    box-shadow: 0px 1px 7px 1px #000;
     width: 130px;
     height: 130px;
 }
@@ -69,18 +107,10 @@
     background-size: cover;
 }
 
-.form-link {
-    font-size: large;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-    padding: 20px;
-}
-
-
 .registartion-button {
     border: none;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255, 0.3);
+    box-shadow: 0px 1px 3px 1px #000;
     height: 50px;
     width: 250px;
     border-radius: 13px;
