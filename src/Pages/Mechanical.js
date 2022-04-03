@@ -28,7 +28,7 @@ function Mechanical() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/uuJ4qxM8hvczL61h9' className='form-link' >
+                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -53,7 +53,7 @@ function Mechanical() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/d4g1ZG7PbfsAt8mQA' className='form-link' >
+                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -77,7 +77,7 @@ function Mechanical() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/eyGrBP8wxv9XnJpy9' className='form-link' >
+                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
                             Register Here
                         </a>
                     </button>

@@ -21,7 +21,7 @@ function Common() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://github.com/PATEL96' className='form-link' >
+                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -32,7 +32,7 @@ function Common() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://github.com/PATEL96' className='form-link' >
+                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -45,7 +45,7 @@ function Common() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://github.com/PATEL96' className='form-link' >
+                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -56,7 +56,7 @@ function Common() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://github.com/PATEL96' className='form-link' >
+                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -69,7 +69,7 @@ function Common() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://github.com/PATEL96' className='form-link' >
+                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -80,7 +80,7 @@ function Common() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://github.com/PATEL96' className='form-link' >
+                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -93,7 +93,7 @@ function Common() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://github.com/PATEL96' className='form-link' >
+                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -104,7 +104,7 @@ function Common() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://github.com/PATEL96' className='form-link' >
+                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
                             Register Here
                         </a>
                     </button>

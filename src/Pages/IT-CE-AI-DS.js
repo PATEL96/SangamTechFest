@@ -53,7 +53,7 @@ function ItCeAiDs() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/46Uz57jbE2uCC8nU9' className='form-link' >
+                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -114,7 +114,7 @@ function ItCeAiDs() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/uuCx65Yrt3A6VuF4A' className='form-link' >
+                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -152,7 +152,7 @@ function ItCeAiDs() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/EzYdEMjX6TPb7V2FA' className='form-link' >
+                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -189,7 +189,7 @@ function ItCeAiDs() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/A6JdgE21sbBeVFuw5' className='form-link' >
+                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
                             Register Here
                         </a>
                     </button>
