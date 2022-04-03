@@ -4,14 +4,7 @@ import raj from '../Images/raj1.png';
 import vinit from '../Images/vinit1.png';
 
 function About() {
-    let width = "none";
-    if (window.innerWidth >= 1250) {
-        width = "container";
-    } else if (window.innerWidth >= 1000) {
-        width = "container-mobile";
-    } else {
-        width = "container-mobile-small";
-    }
+    let width = "container"
 
     return (
         <div className="cont-about">

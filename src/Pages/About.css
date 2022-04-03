@@ -65,19 +65,17 @@
 }
 
 @media screen and (max-width: 1250px) {
-  .container {
-    display: none;
-  }
 
-  .container-mobile {
+  .container {
+    flex-direction: column;
     margin-top: 5%;
     margin-left: 400px;
     margin-right: 400px;
     height: 500px;
     border-radius: 15px;
     border: 2.5px solid rgba(240, 248, 255, 0.634);
-    background-color: rgba(240, 255, 255, 0.3);
     box-shadow: 0px 1px 7px 1px #000;
+    background-color: rgba(240, 255, 255, 0.3);
   }
 
   .name {
@@ -95,8 +93,71 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .container-mobile-small {
+@media screen and (max-width: 1100px) {
+
+  .container {
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 500px;
+    border-radius: 15px;
+    border: 2.5px solid rgba(240, 248, 255, 0.634);
+    box-shadow: 0px 1px 7px 1px #000;
+    background-color: rgba(240, 255, 255, 0.3);
+  }
+
+  .name {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .department {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .links {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 8000px) {
+
+  .container {
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 500px;
+    border-radius: 15px;
+    border: 2.5px solid rgba(240, 248, 255, 0.634);
+    box-shadow: 0px 1px 7px 1px #000;
+    background-color: rgba(240, 255, 255, 0.3);
+  }
+
+  .name {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .department {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .links {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img-place {
+    padding: 10px;
+  }
+
+  .container {
+    flex-direction: column;
     margin-top: 5%;
     margin-left: 40px;
     margin-right: 40px;
@@ -105,5 +166,32 @@
     border: 2.5px solid rgba(240, 248, 255, 0.634);
     box-shadow: 0px 1px 7px 1px #000;
     background-color: rgba(240, 255, 255, 0.3);
+  }
+
+  .name {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .department {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .links {
+    flex-direction: column;
+  }
+
+  .social {
+    font-family: "Times New Roman", Times, serif;
+    padding: 13px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .cont-about {
+    padding: 10px;
   }
 }
