@@ -4,6 +4,7 @@ import bot from '../Images/Sangam Events/BotingNew.png';
 import macing from '../Images/Sangam Events/MacingNew.png';
 import roboyudh from '../Images/Sangam Events/RoboYudhNew.png';
 import qrCode from '../Images/Sangam Events/qrCode.png';
+import { FormLink } from './Forms';
 
 function Mechanical() {
 
@@ -28,7 +29,7 @@ function Mechanical() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -53,7 +54,7 @@ function Mechanical() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -77,7 +78,7 @@ function Mechanical() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>

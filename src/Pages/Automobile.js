@@ -4,6 +4,7 @@ import dreamcar from '../Images/Sangam Events/DreamCarNew.png';
 import quiz from '../Images/Sangam Events/QuizNew.png';
 import autocad from '../Images/Sangam Events/AutoCadNew.png';
 import qrCode from '../Images/Sangam Events/qrCode.png'
+import { FormLink } from './Forms';
 
 function Automobile() {
 
@@ -30,7 +31,7 @@ function Automobile() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -56,7 +57,7 @@ function Automobile() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -85,7 +86,7 @@ function Automobile() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>

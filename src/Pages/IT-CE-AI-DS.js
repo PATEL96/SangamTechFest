@@ -5,6 +5,7 @@ import webappdev from '../Images/Sangam Events/WebAppDevNew.png';
 import gamedev from '../Images/Sangam Events/GameDevNew.png';
 import proeditors from '../Images/Sangam Events/ProEditorsNew.png';
 import qrCode from '../Images/Sangam Events/qrCode.png';
+import { FormLink } from './Forms';
 
 function ItCeAiDs() {
 
@@ -53,7 +54,7 @@ function ItCeAiDs() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -114,7 +115,7 @@ function ItCeAiDs() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -152,7 +153,7 @@ function ItCeAiDs() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -189,7 +190,7 @@ function ItCeAiDs() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>

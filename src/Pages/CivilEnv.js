@@ -5,6 +5,7 @@ import bridgeBreakup from '../Images/Sangam Events/BridgeBreakupNew.png';
 import aquaArena from '../Images/Sangam Events/AquaArenaNew.png';
 import bobTheBuilder from '../Images/Sangam Events/BobTheBuilderNew.png';
 import homesweethome from '../Images/Sangam Events/HomeSweetHomeNew.png'
+import { FormLink } from './Forms';
 
 function CivilEnv() {
 
@@ -29,7 +30,7 @@ function CivilEnv() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -52,7 +53,7 @@ function CivilEnv() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -81,7 +82,7 @@ function CivilEnv() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -103,7 +104,7 @@ function CivilEnv() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>

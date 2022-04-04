@@ -4,6 +4,7 @@ import electrogets from '../Images/Sangam Events/ElectrogetsNew.png';
 import iot from '../Images/Sangam Events/IotNew.png';
 import chakravyuh from '../Images/Sangam Events/ChakravyuhNew.png';
 import qrCode from '../Images/Sangam Events/qrCode.png';
+import { FormLink } from './Forms';
 
 function EcEceIct() {
 
@@ -16,7 +17,7 @@ function EcEceIct() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -27,7 +28,7 @@ function EcEceIct() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -40,7 +41,7 @@ function EcEceIct() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>

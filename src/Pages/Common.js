@@ -9,6 +9,7 @@ import vigyan from '../Images/Sangam Events/VigyanamRamanamNew.png';
 import paper from '../Images/Sangam Events/PapperPressNew.png';
 import techmeme from '../Images/Sangam Events/TechMemeNew.png';
 import qrCode from '../Images/Sangam Events/qrCode.png';
+import { FormLink } from './Forms';
 
 function Common() {
 
@@ -21,7 +22,7 @@ function Common() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -32,7 +33,7 @@ function Common() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -45,7 +46,7 @@ function Common() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -56,7 +57,7 @@ function Common() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -69,7 +70,7 @@ function Common() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -80,7 +81,7 @@ function Common() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -93,7 +94,7 @@ function Common() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -104,7 +105,7 @@ function Common() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <button className='registartion-button'>
-                        <a href='https://forms.gle/xF3y6jhz5JHFMZZw7' className='form-link' >
+                        <a href={FormLink} className='form-link' >
                             Register Here
                         </a>
                     </button>
