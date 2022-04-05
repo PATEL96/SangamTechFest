@@ -30,7 +30,7 @@ function CivilEnv() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
+                        <a href={FormLink} target="_blank" className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -53,7 +53,7 @@ function CivilEnv() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
+                        <a href={FormLink} target="_blank" className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -82,7 +82,7 @@ function CivilEnv() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
+                        <a href={FormLink} target="_blank" className='form-link' >
                             Register Here
                         </a>
                     </button>
@@ -104,7 +104,7 @@ function CivilEnv() {
                         </div>
                     </div>
                     <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
+                        <a href={FormLink} target="_blank" className='form-link' >
                             Register Here
                         </a>
                     </button>
