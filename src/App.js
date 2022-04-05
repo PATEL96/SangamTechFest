@@ -10,6 +10,7 @@ import Automobile from "./Pages/Automobile";
 import CivilEnv from "./Pages/CivilEnv";
 import Chemical from "./Pages/Chemical";
 import Common from "./Pages/Common";
+import Counter from "./Components/Counter";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route exact path='/non-technical' element={<Common />} />
             <Route exact path='/developers' element={<About />} />
           </Routes>
+          <Counter />
         </Router>
       </div>
     </div >
