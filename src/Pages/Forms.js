@@ -1,1 +1,1 @@
-export const FormLink = "https://forms.gle/vJQkkeCS96xe9arC9";
+export const FormLink = "https://forms.gle/uNTjGtyV8kqPWPSU8";
