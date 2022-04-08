@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/SangamTechFest/static/css/main.876ed5a7.css",
-    "main.js": "/SangamTechFest/static/js/main.9474b67d.js",
+    "main.js": "/SangamTechFest/static/js/main.def706a5.js",
     "static/media/Eng Poster Final-01.png": "/SangamTechFest/static/media/Eng Poster Final-01.fb136d1a146255d6c952.png",
+    "static/media/ProductDesignRules.pdf": "/SangamTechFest/static/media/ProductDesignRules.7d509b12ee9996598f9a.pdf",
     "static/media/Pink back.png": "/SangamTechFest/static/media/Pink back.768dbbd66186813c8def.png",
+    "static/media/PaperPresentationRules.pdf": "/SangamTechFest/static/media/PaperPresentationRules.e8c5dc9f2fff9202018c.pdf",
     "static/media/Blue back.jpeg": "/SangamTechFest/static/media/Blue back.6a6a042ea33f410a1a45.jpeg",
     "static/media/Sky blue back.jpeg": "/SangamTechFest/static/media/Sky blue back.bc31c00a6356eda565cc.jpeg",
     "static/media/ChemicalRules.pdf": "/SangamTechFest/static/media/ChemicalRules.49289a6fda32f5a38800.pdf",
@@ -24,12 +26,14 @@
     "static/media/RoboYudhNew.png": "/SangamTechFest/static/media/RoboYudhNew.c2ee05a7063ca7eb4120.png",
     "static/media/QuizNew.png": "/SangamTechFest/static/media/QuizNew.74141b0d977c99e4ec4f.png",
     "static/media/QuizEeNew.png": "/SangamTechFest/static/media/QuizEeNew.997846ea9af1eb7d811f.png",
+    "static/media/TechMemeRules.pdf": "/SangamTechFest/static/media/TechMemeRules.c91d91eef204856719ec.pdf",
     "static/media/PapperPressNew.png": "/SangamTechFest/static/media/PapperPressNew.ca078bd46f25e2c5e7d0.png",
     "static/media/EnggioOChemistryNew.png": "/SangamTechFest/static/media/EnggioOChemistryNew.115ffbac615f87d6ef12.png",
     "static/media/HomeSweetHomeNew.png": "/SangamTechFest/static/media/HomeSweetHomeNew.8e34891d46423b5949c8.png",
     "static/media/VigyanamRamanamNew.png": "/SangamTechFest/static/media/VigyanamRamanamNew.7f25fba340fb3a9881b3.png",
     "static/media/BobTheBuilderNew.png": "/SangamTechFest/static/media/BobTheBuilderNew.cd6da32f8eafffbeb95f.png",
     "static/media/QuizoMeterNew.png": "/SangamTechFest/static/media/QuizoMeterNew.c8cf4615f253b0d9d5c9.png",
+    "static/media/Quiz-O-MeterRules.pdf": "/SangamTechFest/static/media/Quiz-O-MeterRules.174e31900d81fc4b62a5.pdf",
     "static/media/WebAppDevNew.png": "/SangamTechFest/static/media/WebAppDevNew.9301b14d66f42f2b2411.png",
     "static/media/TechMemeNew.png": "/SangamTechFest/static/media/TechMemeNew.bee330809ebc8b0d3562.png",
     "static/media/BridgeBreakupNew.png": "/SangamTechFest/static/media/BridgeBreakupNew.d49c1701da2e1e1ea12f.png",
@@ -40,6 +44,7 @@
     "static/media/GameDevNew.png": "/SangamTechFest/static/media/GameDevNew.8279dcb62a386dfdb63c.png",
     "static/media/ProEditorsNew.png": "/SangamTechFest/static/media/ProEditorsNew.36bdab43f6f2061bb161.png",
     "static/media/MacingNew.png": "/SangamTechFest/static/media/MacingNew.cc907b0a84d9802f1e10.png",
+    "static/media/BattlegroundRules.pdf": "/SangamTechFest/static/media/BattlegroundRules.9c189e7774e351a86388.pdf",
     "static/media/Orange back.jpeg": "/SangamTechFest/static/media/Orange back.c256260f95ac65c164c6.jpeg",
     "static/media/qrCode.png": "/SangamTechFest/static/media/qrCode.3090cd0f8c20876d3494.png",
     "static/media/IotNew.png": "/SangamTechFest/static/media/IotNew.b167d8ac39ff1ce97b98.png",
@@ -50,10 +55,10 @@
     "static/media/vinit1.png": "/SangamTechFest/static/media/vinit1.23bd53a100b5c9cc44c3.png",
     "index.html": "/SangamTechFest/index.html",
     "main.876ed5a7.css.map": "/SangamTechFest/static/css/main.876ed5a7.css.map",
-    "main.9474b67d.js.map": "/SangamTechFest/static/js/main.9474b67d.js.map"
+    "main.def706a5.js.map": "/SangamTechFest/static/js/main.def706a5.js.map"
   },
   "entrypoints": [
     "static/css/main.876ed5a7.css",
-    "static/js/main.9474b67d.js"
+    "static/js/main.def706a5.js"
   ]
 }
