@@ -1,3 +1,24 @@
+.download-option {
+    padding: 20px;
+}
+
+.fa-download {
+    padding-right: 8px;
+}
+
+.download-button {
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(240, 255, 255, 0.346);
+    border-radius: 15px;
+    font-size: 15px;
+    box-shadow: 0px 1px 7px 1px #000;
+}
+
 .notice-main {
     box-shadow: 0px 1px 7px 1px #000;
     background-color: rgba(255, 255, 255, 0.45);
@@ -37,7 +58,7 @@
 
 .rules {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     font-weight: bold;
     font-size: larger;

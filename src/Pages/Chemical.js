@@ -6,6 +6,7 @@ import engiochem from '../Images/Sangam Events/EnggioOChemistryNew.png';
 import quizee from '../Images/Sangam Events/QuizEeNew.png';
 import qrCode from '../Images/Sangam Events/qrCode.png';
 import { FormLink } from './Forms';
+import Rules from '../DownloadFiles/ChemicalRules.pdf';
 
 function Chemical() {
 
@@ -18,12 +19,12 @@ function Chemical() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <div className='rules'>
-                        -:Rules & Regulations:-
-                        <div className='rule-list'>
-                            1) Participants should bring their Requirements along them on the Day of Event.<br />
-                            2) Good Design, Explanation, Quality of Content and Confidence of Speaking will be the Merit criteria.<br />
-                            3) The decision of the Judges will be Final and no sort of Dispute will be Entertained.<br />
-                        </div>
+                        <a href={Rules} download >
+                            <button className='download-button'>
+                                <i className="fas fa-download" />
+                                Rules & Regulations
+                            </button>
+                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
@@ -37,14 +38,12 @@ function Chemical() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <div className='rules'>
-                        -:Rules & Regulations:-
-                        <div className='rule-list'>
-                            1) Maximum Participants per team is 4.<br />
-                            2) The Team shoul Display their Project Throughout the Event schedule, failing which may be liable for Disqualification.<br />
-                            3) Participants should bring their Requirements along them on the Day of Event.<br />
-                            4) Good Design and Ease in Navigaion will be the Merit criteria.<br />
-                            5) The decision of the Judges will be Final and no sort of Dispute will be Entertained.<br />
-                        </div>
+                        <a href={Rules} download >
+                            <button className='download-button'>
+                                <i className="fas fa-download" />
+                                Rules & Regulations
+                            </button>
+                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
@@ -60,12 +59,12 @@ function Chemical() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <div className='rules'>
-                        -:Rules & Regulations:-
-                        <div className='rule-list'>
-                            1) Try to Avoid ParaGraphs and Post idae in Points.<br />
-                            2) Good Design and Ease in Navigaion will be the Merit criteria.<br />
-                            3) The decision of the Judges will be Final and no sort of Dispute will be Entertained.<br />
-                        </div>
+                        <a href={Rules} download >
+                            <button className='download-button'>
+                                <i className="fas fa-download" />
+                                Rules & Regulations
+                            </button>
+                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
@@ -79,15 +78,12 @@ function Chemical() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <div className='rules'>
-                        -:Rules & Regulations:-
-                        <div className='rule-list'>
-                            1) There will be Three Round depending on the Number of Participants.<br />
-                            2) Each Round will be of 10 minutes Duration.<br />
-                            3) There will be 20 Question in each Round.<br />
-                            4) Only 10 Participants will go to the Fina Round.<br />
-                            5) Every correct Answer carries 1 point.<br />
-                            6) Venue Will be Notified Later.<br />
-                        </div>
+                        <a href={Rules} download >
+                            <button className='download-button'>
+                                <i className="fas fa-download" />
+                                Rules & Regulations
+                            </button>
+                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >

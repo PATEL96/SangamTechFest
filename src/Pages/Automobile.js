@@ -5,6 +5,7 @@ import quiz from '../Images/Sangam Events/QuizNew.png';
 import autocad from '../Images/Sangam Events/AutoCadNew.png';
 import qrCode from '../Images/Sangam Events/qrCode.png'
 import { FormLink } from './Forms';
+import Rules from '../DownloadFiles/AutoMobileRules.pdf';
 
 function Automobile() {
 
@@ -17,18 +18,12 @@ function Automobile() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <div className='rules'>
-                        -:Rules & Regulations:-
-                        <div className='rule-list'>
-                            • Only 4studens can participate in the event.<br />
-                            • The workpiece material as well as the tools will be provided to the team.<br />
-                            • The completion of task should be within the given time. Extra time will be provided.<br />
-                        </div>
-                    </div>
-                    <div className='rules'>
-                        -:Requirements:-
-                        <div className='rule-list'>
-                            • ID Card
-                        </div>
+                        <a href={Rules} download >
+                            <button className='download-button'>
+                                <i className="fas fa-download" />
+                                Rules & Regulations
+                            </button>
+                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
@@ -42,19 +37,12 @@ function Automobile() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <div className='rules'>
-                        -:Rules & Regulations:-
-                        <div className='rule-list'>
-                            • Be punctual enough to reach the event venue on time. If late, you will not be allowed to give the Quiz.<br />
-                            • Any kind of cheating material will not be entertained during the quiz. If found, you will be disqualified straight away.<br />
-                        </div>
-                    </div>
-                    <div className='rules'>
-                        -:Requirements:-
-                        <div className='rule-list'>
-                            •ID Card.<br />
-                            •Pen/Pencil.<br />
-                            •Calculator (if required).<br />
-                        </div>
+                        <a href={Rules} download >
+                            <button className='download-button'>
+                                <i className="fas fa-download" />
+                                Rules & Regulations
+                            </button>
+                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
@@ -70,20 +58,12 @@ function Automobile() {
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
                     <div className='rules'>
-                        -:Rules & Regulations:-
-                        <div className='rule-list'>
-                            •Only AUTOCAD Software is valid for the event.<br />
-                            •Computer Labs will be provided for utilizing the software.<br />
-                            •Complete the task in the given time period. No extra time will be provided.<br />
-                            •Maximum 2 participants are allowed. A single person can also participate.<br />
-                            •Any kind of Stationary Item(like book page, calculator) will not be allowed in the Lab during the event session.<br />
-                        </div>
-                    </div>
-                    <div className='rules'>
-                        -:Requirements:-
-                        <div className='rule-list'>
-                            •AUTOCAD <br />
-                        </div>
+                        <a href={Rules} download >
+                            <button className='download-button'>
+                                <i className="fas fa-download" />
+                                Rules & Regulations
+                            </button>
+                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
