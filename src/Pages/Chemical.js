@@ -12,19 +12,19 @@ function Chemical() {
 
     return (
         <div className='cont-chem' >
+            <div className='rules'>
+                <a href={Rules} download >
+                    <button className='download-button'>
+                        <i className="fas fa-download" />
+                        Rules & Regulations
+                    </button>
+                </a>
+            </div>
             <div className='pair-1'>
                 <div className='medi-chem'>
                     <div className='data'>
                         <img src={medichem} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <div className='rules'>
-                        <a href={Rules} download >
-                            <button className='download-button'>
-                                <i className="fas fa-download" />
-                                Rules & Regulations
-                            </button>
-                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
@@ -36,14 +36,6 @@ function Chemical() {
                     <div className='data'>
                         <img src={working} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <div className='rules'>
-                        <a href={Rules} download >
-                            <button className='download-button'>
-                                <i className="fas fa-download" />
-                                Rules & Regulations
-                            </button>
-                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
@@ -58,14 +50,6 @@ function Chemical() {
                         <img src={engiochem} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
-                    <div className='rules'>
-                        <a href={Rules} download >
-                            <button className='download-button'>
-                                <i className="fas fa-download" />
-                                Rules & Regulations
-                            </button>
-                        </a>
-                    </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
                             Register Here
@@ -76,14 +60,6 @@ function Chemical() {
                     <div className='data'>
                         <img src={quizee} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <div className='rules'>
-                        <a href={Rules} download >
-                            <button className='download-button'>
-                                <i className="fas fa-download" />
-                                Rules & Regulations
-                            </button>
-                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >

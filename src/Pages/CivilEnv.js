@@ -12,19 +12,19 @@ function CivilEnv() {
 
     return (
         <div className='cont-civil' >
+            <div className='rules'>
+                <a href={Rules} download >
+                    <button className='download-button'>
+                        <i className="fas fa-download" />
+                        Rules & Regulations
+                    </button>
+                </a>
+            </div>
             <div className='pair-1'>
                 <div className='bridge-breakup'>
                     <div className='data'>
                         <img src={bridgeBreakup} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <div className='rules'>
-                        <a href={Rules} download >
-                            <button className='download-button'>
-                                <i className="fas fa-download" />
-                                Rules & Regulations
-                            </button>
-                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
@@ -36,14 +36,6 @@ function CivilEnv() {
                     <div className='data'>
                         <img src={bobTheBuilder} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <div className='rules'>
-                        <a href={Rules} download >
-                            <button className='download-button'>
-                                <i className="fas fa-download" />
-                                Rules & Regulations
-                            </button>
-                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
@@ -58,14 +50,6 @@ function CivilEnv() {
                         <img src={homesweethome} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
-                    <div className='rules'>
-                        <a href={Rules} download >
-                            <button className='download-button'>
-                                <i className="fas fa-download" />
-                                Rules & Regulations
-                            </button>
-                        </a>
-                    </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
                             Register Here
@@ -76,14 +60,6 @@ function CivilEnv() {
                     <div className='data'>
                         <img src={aquaArena} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <div className='rules'>
-                        <a href={Rules} download >
-                            <button className='download-button'>
-                                <i className="fas fa-download" />
-                                Rules & Regulations
-                            </button>
-                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >

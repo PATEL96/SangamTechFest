@@ -11,19 +11,19 @@ function Automobile() {
 
     return (
         <div className='cont-auto' >
+            <div className='rules'>
+                <a href={Rules} download >
+                    <button className='download-button'>
+                        <i className="fas fa-download" />
+                        Rules & Regulations
+                    </button>
+                </a>
+            </div>
             <div className='pair-1'>
                 <div className='dream-car'>
                     <div className='data'>
                         <img src={dreamcar} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <div className='rules'>
-                        <a href={Rules} download >
-                            <button className='download-button'>
-                                <i className="fas fa-download" />
-                                Rules & Regulations
-                            </button>
-                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
@@ -35,14 +35,6 @@ function Automobile() {
                     <div className='data'>
                         <img src={quiz} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <div className='rules'>
-                        <a href={Rules} download >
-                            <button className='download-button'>
-                                <i className="fas fa-download" />
-                                Rules & Regulations
-                            </button>
-                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
@@ -56,14 +48,6 @@ function Automobile() {
                     <div className='data'>
                         <img src={autocad} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <div className='rules'>
-                        <a href={Rules} download >
-                            <button className='download-button'>
-                                <i className="fas fa-download" />
-                                Rules & Regulations
-                            </button>
-                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >

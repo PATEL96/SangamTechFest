@@ -12,19 +12,19 @@ function ItCeAiDs() {
 
     return (
         <div className='cont-it' >
+            <div className='rules'>
+                <a href={Rules} download >
+                    <button className='download-button'>
+                        <i className="fas fa-download" />
+                        Rules & Regulations
+                    </button>
+                </a>
+            </div>
             <div className='pair-1'>
                 <div className='pro-editors'>
                     <div className='data'>
                         <img src={proeditors} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <div className='rules'>
-                        <a href={Rules} download >
-                            <button className='download-button'>
-                                <i className="fas fa-download" />
-                                Rules & Regulations
-                            </button>
-                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
@@ -36,14 +36,6 @@ function ItCeAiDs() {
                     <div className='data'>
                         <img src={webappdev} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <div className='rules'>
-                        <a href={Rules} download >
-                            <button className='download-button'>
-                                <i className="fas fa-download" />
-                                Rules & Regulations
-                            </button>
-                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
@@ -58,14 +50,6 @@ function ItCeAiDs() {
                         <img src={gamedev} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
-                    <div className='rules'>
-                        <a href={Rules} download >
-                            <button className='download-button'>
-                                <i className="fas fa-download" />
-                                Rules & Regulations
-                            </button>
-                        </a>
-                    </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
                             Register Here
@@ -76,14 +60,6 @@ function ItCeAiDs() {
                     <div className='data'>
                         <img src={codewar} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <div className='rules'>
-                        <a href={Rules} download >
-                            <button className='download-button'>
-                                <i className="fas fa-download" />
-                                Rules & Regulations
-                            </button>
-                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >

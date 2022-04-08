@@ -11,21 +11,19 @@ function Mechanical() {
 
     return (
         <div className='cont-mech' >
+            <div className='rules'>
+                <a href={Rules} download >
+                    <button className='download-button'>
+                        <i className="fas fa-download" />
+                        Rules & Regulations
+                    </button>
+                </a>
+            </div>
             <div className='pair-1'>
                 <div className='boting'>
                     <div className='data'>
                         <img src={bot} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <div className='rules'>
-                        <div className="download-option">
-                            <a href={Rules} download >
-                                <button className='download-button'>
-                                    <i className="fas fa-download" />
-                                    Rules & Regulations
-                                </button>
-                            </a>
-                        </div>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
@@ -37,14 +35,6 @@ function Mechanical() {
                     <div className='data'>
                         <img src={macing} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <div className='rules'>
-                        <a href={Rules} download >
-                            <button className='download-button'>
-                                <i className="fas fa-download" />
-                                Rules & Regulations
-                            </button>
-                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
@@ -58,14 +48,6 @@ function Mechanical() {
                     <div className='data'>
                         <img src={roboyudh} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <div className='rules'>
-                        <a href={Rules} download >
-                            <button className='download-button'>
-                                <i className="fas fa-download" />
-                                Rules & Regulations
-                            </button>
-                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >

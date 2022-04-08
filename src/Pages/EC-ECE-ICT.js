@@ -5,11 +5,20 @@ import iot from '../Images/Sangam Events/IotNew.png';
 import chakravyuh from '../Images/Sangam Events/ChakravyuhNew.png';
 import qrCode from '../Images/Sangam Events/qrCode.png';
 import { FormLink } from './Forms';
+import Rules from '../DownloadFiles/EERules.pdf';
 
 function EcEceIct() {
 
     return (
         <div className='cont-ece' >
+            <div className='rules'>
+                <a href={Rules} download >
+                    <button className='download-button'>
+                        <i className="fas fa-download" />
+                        Rules & Regulations
+                    </button>
+                </a>
+            </div>
             <div className='pair-1'>
                 <div className='electrogets'>
                     <div className='data'>
