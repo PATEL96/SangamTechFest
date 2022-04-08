@@ -10,6 +10,11 @@ import paper from '../Images/Sangam Events/PapperPressNew.png';
 import techmeme from '../Images/Sangam Events/TechMemeNew.png';
 import qrCode from '../Images/Sangam Events/qrCode.png';
 import { FormLink } from './Forms';
+import battle from '../DownloadFiles/BattlegroundRules.pdf';
+import paperpress from '../DownloadFiles/PaperPresentationRules.pdf';
+import Meme from '../DownloadFiles/TechMemeRules.pdf';
+import quizoo from '../DownloadFiles/Quiz-O-MeterRules.pdf';
+import prodes from '../DownloadFiles/ProductDesignRules.pdf';
 
 function Common() {
 
@@ -21,6 +26,14 @@ function Common() {
                         <img src={quizometer} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
+                    <div className='rules'>
+                        <a href={quizoo} download >
+                            <button className='download-button'>
+                                <i className="fas fa-download" />
+                                Rules & Regulations
+                            </button>
+                        </a>
+                    </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
                             Register Here
@@ -31,6 +44,14 @@ function Common() {
                     <div className='data'>
                         <img src={prodesign} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
+                    </div>
+                    <div className='rules'>
+                        <a href={prodes} download >
+                            <button className='download-button'>
+                                <i className="fas fa-download" />
+                                Rules & Regulations
+                            </button>
+                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
@@ -69,6 +90,14 @@ function Common() {
                         <img src={battleground} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
+                    <div className='rules'>
+                        <a href={battle} download >
+                            <button className='download-button'>
+                                <i className="fas fa-download" />
+                                Rules & Regulations
+                            </button>
+                        </a>
+                    </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
                             Register Here
@@ -93,6 +122,14 @@ function Common() {
                         <img src={paper} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
+                    <div className='rules'>
+                        <a href={paperpress} download >
+                            <button className='download-button'>
+                                <i className="fas fa-download" />
+                                Rules & Regulations
+                            </button>
+                        </a>
+                    </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
                             Register Here
@@ -103,6 +140,14 @@ function Common() {
                     <div className='data'>
                         <img src={techmeme} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
+                    </div>
+                    <div className='rules'>
+                        <a href={Meme} download >
+                            <button className='download-button'>
+                                <i className="fas fa-download" />
+                                Rules & Regulations
+                            </button>
+                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
