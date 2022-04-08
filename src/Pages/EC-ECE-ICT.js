@@ -25,6 +25,10 @@ function EcEceIct() {
                         <img src={electrogets} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
+                    <div className='note'>
+                        The Above Event has been changed to Lazzo Maze<br /><br />
+                        For Registartion Select Electrogets in The Form
+                    </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
                             Register Here
