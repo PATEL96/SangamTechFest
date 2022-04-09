@@ -3,6 +3,7 @@ import './Pages.css'
 import image from '../Images/Eng Poster Final-01.png'
 import Notice from './Notice';
 import SangamEvent from '../DownloadFiles/SangamEvents.pdf';
+import SangamPposter from '../DownloadFiles/SangamPoster.pdf';
 
 function Home() {
 
@@ -13,15 +14,15 @@ function Home() {
                     <a href={SangamEvent} download >
                         <button className='download-button'>
                             <i className="fas fa-download" />
-                            Sangam Department Brochure
+                            Sangam-Department Flyers
                         </button>
                     </a>
                 </div>
                 <div className='rules'>
-                    <a href={SangamEvent} download >
+                    <a href={SangamPposter} download >
                         <button className='download-button'>
                             <i className="fas fa-download" />
-                            Sangam Brochure
+                            Sangam-Posters
                         </button>
                     </a>
                 </div>
