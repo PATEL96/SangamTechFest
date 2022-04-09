@@ -53,7 +53,7 @@ function Navbar() {
                 </Link>
                 <Link to='/developers' className="links" >
                     <li className="developers">
-                        Developers
+                        Management
                     </li>
                 </Link>
             </ul>

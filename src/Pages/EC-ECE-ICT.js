@@ -1,6 +1,6 @@
 import React from 'react';
 import './Pages.css';
-import electrogets from '../Images/Sangam Events/ElectrogetsNew.png';
+import electrogets from '../Images/Sangam Events/LazzoMazeNew.png';
 import iot from '../Images/Sangam Events/IotNew.png';
 import chakravyuh from '../Images/Sangam Events/ChakravyuhNew.png';
 import qrCode from '../Images/Sangam Events/qrCode.png';
@@ -27,7 +27,7 @@ function EcEceIct() {
                     </div>
                     <div className='note'>
                         The Above Event has been changed to Lazzo Maze<br /><br />
-                        For Registartion Select Electrogets in The Form
+                        For Registartion in Lazzo-Maze Select Electrogets in The Form
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >

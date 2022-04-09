@@ -15,6 +15,9 @@ import paperpress from '../DownloadFiles/PaperPresentationRules.pdf';
 import Meme from '../DownloadFiles/TechMemeRules.pdf';
 import quizoo from '../DownloadFiles/Quiz-O-MeterRules.pdf';
 import prodes from '../DownloadFiles/ProductDesignRules.pdf';
+import vicharoo from '../DownloadFiles/VicharoKaMahayudhRules.pdf';
+import vigyanam from '../DownloadFiles/VigyanamRamanamRules.pdf';
+import tech from '../DownloadFiles/TechTalksRules.pdf';
 
 function Common() {
 
@@ -66,6 +69,14 @@ function Common() {
                         <img src={vichar} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
                     </div>
+                    <div className='rules'>
+                        <a href={vicharoo} download >
+                            <button className='download-button'>
+                                <i className="fas fa-download" />
+                                Rules & Regulations
+                            </button>
+                        </a>
+                    </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
                             Register Here
@@ -76,6 +87,14 @@ function Common() {
                     <div className='data'>
                         <img src={techtalk} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
+                    </div>
+                    <div className='rules'>
+                        <a href={tech} download >
+                            <button className='download-button'>
+                                <i className="fas fa-download" />
+                                Rules & Regulations
+                            </button>
+                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
@@ -108,6 +127,14 @@ function Common() {
                     <div className='data'>
                         <img src={vigyan} alt='none' className='event-img' />
                         <img src={qrCode} alt='none' className='qrImage' />
+                    </div>
+                    <div className='rules'>
+                        <a href={vigyanam} download >
+                            <button className='download-button'>
+                                <i className="fas fa-download" />
+                                Rules & Regulations
+                            </button>
+                        </a>
                     </div>
                     <button className='registartion-button'>
                         <a href={FormLink} className='form-link' >
