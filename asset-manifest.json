@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/SangamTechFest/static/css/main.56e88ffc.css",
-    "main.js": "/SangamTechFest/static/js/main.a8cb8e30.js",
+    "main.css": "/SangamTechFest/static/css/main.dec7ad1c.css",
+    "main.js": "/SangamTechFest/static/js/main.fa8cd923.js",
     "static/media/Eng Poster Final-01.png": "/SangamTechFest/static/media/Eng Poster Final-01.fb136d1a146255d6c952.png",
+    "static/media/SangamEvents.pdf": "/SangamTechFest/static/media/SangamEvents.0da2c8f36f5caf8060bf.pdf",
     "static/media/ProductDesignRules.pdf": "/SangamTechFest/static/media/ProductDesignRules.7d509b12ee9996598f9a.pdf",
     "static/media/Pink back.png": "/SangamTechFest/static/media/Pink back.768dbbd66186813c8def.png",
     "static/media/PaperPresentationRules.pdf": "/SangamTechFest/static/media/PaperPresentationRules.e8c5dc9f2fff9202018c.pdf",
@@ -61,11 +62,11 @@
     "static/media/raj1.png": "/SangamTechFest/static/media/raj1.b41beaf94be219d45874.png",
     "static/media/vinit1.png": "/SangamTechFest/static/media/vinit1.23bd53a100b5c9cc44c3.png",
     "index.html": "/SangamTechFest/index.html",
-    "main.56e88ffc.css.map": "/SangamTechFest/static/css/main.56e88ffc.css.map",
-    "main.a8cb8e30.js.map": "/SangamTechFest/static/js/main.a8cb8e30.js.map"
+    "main.dec7ad1c.css.map": "/SangamTechFest/static/css/main.dec7ad1c.css.map",
+    "main.fa8cd923.js.map": "/SangamTechFest/static/js/main.fa8cd923.js.map"
   },
   "entrypoints": [
-    "static/css/main.56e88ffc.css",
-    "static/js/main.a8cb8e30.js"
+    "static/css/main.dec7ad1c.css",
+    "static/js/main.fa8cd923.js"
   ]
 }
