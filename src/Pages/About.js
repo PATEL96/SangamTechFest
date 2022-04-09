@@ -19,7 +19,7 @@ function About() {
                 </div>
                 <div className="edu">
                     <div className="name">
-                        Sudhakar Nakka
+                        Mr. Sudhakar Nakka
                     </div>
                     <div className="department">
                         Asst. Professor<br />
