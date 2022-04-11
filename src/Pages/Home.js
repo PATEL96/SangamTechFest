@@ -1,9 +1,10 @@
 import React from 'react';
 import './Pages.css'
 import image from '../Images/Eng Poster Final-01.png'
-import Notice from './Notice';
+import Notice1 from './Notice1';
 import SangamEvent from '../DownloadFiles/SangamEvents.pdf';
 import SangamPposter from '../DownloadFiles/SangamPoster.pdf';
+import Notice2 from './Notice2';
 
 function Home() {
 
@@ -27,7 +28,8 @@ function Home() {
                     </a>
                 </div>
             </div>
-            <Notice />
+            <Notice2 />
+            <Notice1 />
             <img src={image} alt="none" className='home-img' />
         </div>
     );

@@ -9,6 +9,15 @@
     padding: 15px;
 }
 
+.coor {
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
 .fa-download {
     padding-right: 8px;
 }
@@ -17,6 +26,15 @@
     font-size: 20px;
     font-weight: bold;
     padding: 15px;
+}
+
+.cont-work {
+    margin-top: 50px;
+    height: 400px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.45);
 }
 
 .download-button {
@@ -210,6 +228,15 @@
         align-items: center;
     }
 
+    .cont-work {
+        margin-top: 50px;
+        height: 400px;
+        margin-left: 100px;
+        margin-right: 100px;
+        border-radius: 15px;
+        background-color: rgba(255, 255, 255, 0.45);
+    }
+
     .event-img {
         width: 100%;
     }
@@ -237,6 +264,15 @@
         justify-content: center;
         align-items: center;
         padding: 15px;
+    }
+
+    .cont-work {
+        margin-top: 50px;
+        height: 400px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 15px;
+        background-color: rgba(255, 255, 255, 0.45);
     }
 
     .quizo-meter,

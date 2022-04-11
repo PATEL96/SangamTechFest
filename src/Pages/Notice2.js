@@ -1,13 +1,13 @@
 import React from "react";
 import './Pages.css';
 
-function Notice() {
+function Notice2() {
     return (
         <div className="cont-notice">
             <center>
                 <div className="notice-main" >
                     <div className="notice" >
-                        !! All Participants Are requested to pay using the QR Code given with Event !!
+                        !! Special Event - PHYSICS MOB Conducted by Romit Savaliya & Team !!
                     </div>
                 </div>
             </center>
@@ -15,4 +15,4 @@ function Notice() {
     );
 }
 
-export default Notice;
+export default Notice2;
