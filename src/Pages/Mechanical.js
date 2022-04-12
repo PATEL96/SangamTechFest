@@ -1,11 +1,8 @@
 import React from 'react';
 import './Pages.css';
-import bot from '../Images/Sangam Events/BotingNew.png';
-import macing from '../Images/Sangam Events/MacingNew.png';
-import roboyudh from '../Images/Sangam Events/RoboYudhNew.png';
-import qrCode from '../Images/Sangam Events/qrCode.png';
-import { FormLink } from './Forms';
 import Rules from '../DownloadFiles/MechanicalRules.pdf';
+import mechanical from '../Images/MECHANICALTF-FINAL.mp4';
+import mec from '../Images/3_20220401_151300_0002.png'
 
 function Mechanical() {
 
@@ -19,43 +16,16 @@ function Mechanical() {
                     </button>
                 </a>
             </div>
-            <div className='pair-1'>
-                <div className='boting'>
-                    <div className='data'>
-                        <img src={bot} alt='none' className='event-img' />
-                        <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
-                            Register Here
-                        </a>
-                    </button>
-                </div>
-                <div className='macing'>
-                    <div className='data'>
-                        <img src={macing} alt='none' className='event-img' />
-                        <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
-                            Register Here
-                        </a>
-                    </button>
-                </div>
-            </div>
-            <div className='pair-2'>
-                <div className='robo-yudh'>
-                    <div className='data'>
-                        <img src={roboyudh} alt='none' className='event-img' />
-                        <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
-                            Register Here
-                        </a>
-                    </button>
-                </div>
-            </div>
+            <img src={mec} alt="none" style={{
+                width: "90%"
+            }} />
+            <video autoPlay loop controls muted style={{
+                width: "90%",
+                padding: "20px",
+                zIndex: "-1"
+            }} >
+                <source src={mechanical} type='video/mp4' />
+            </video>
         </div>
     );
 }

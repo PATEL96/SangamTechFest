@@ -1,12 +1,8 @@
 import React from 'react';
 import './Pages.css';
-import medichem from '../Images/Sangam Events/MediChemNew.png';
-import working from '../Images/Sangam Events/WorkingModelNew.png';
-import engiochem from '../Images/Sangam Events/EnggioOChemistryNew.png';
-import quizee from '../Images/Sangam Events/QuizEeNew.png';
-import qrCode from '../Images/Sangam Events/qrCode.png';
-import { FormLink } from './Forms';
 import Rules from '../DownloadFiles/ChemicalRules.pdf';
+import chemical from '../Images/CHEMICALTF-FINAL.mp4';
+import che from '../Images/4_20220401_151300_0003.png';
 
 function Chemical() {
 
@@ -20,54 +16,16 @@ function Chemical() {
                     </button>
                 </a>
             </div>
-            <div className='pair-1'>
-                <div className='medi-chem'>
-                    <div className='data'>
-                        <img src={medichem} alt='none' className='event-img' />
-                        <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
-                            Register Here
-                        </a>
-                    </button>
-                </div>
-                <div className='working-model'>
-                    <div className='data'>
-                        <img src={working} alt='none' className='event-img' />
-                        <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
-                            Register Here
-                        </a>
-                    </button>
-                </div>
-            </div>
-            <div className='pair-2'>
-                <div className='enggio'>
-                    <div className='data'>
-                        <img src={engiochem} alt='none' className='event-img' />
-                        <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
-                            Register Here
-                        </a>
-                    </button>
-                </div>
-                <div className='quiz-ee'>
-                    <div className='data'>
-                        <img src={quizee} alt='none' className='event-img' />
-                        <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
-                            Register Here
-                        </a>
-                    </button>
-                </div>
-            </div>
+            <img src={che} alt="none" style={{
+                width: "90%"
+            }} />
+            <video autoPlay loop controls muted style={{
+                width: "90%",
+                padding: "20px",
+                zIndex: "-1"
+            }} >
+                <source src={chemical} type='video/mp4' />
+            </video>
         </div>
     );
 }

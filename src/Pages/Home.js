@@ -1,10 +1,9 @@
 import React from 'react';
 import './Pages.css'
 import image from '../Images/Eng Poster Final-01.png'
-import Notice1 from './Notice1';
 import SangamEvent from '../DownloadFiles/SangamEvents.pdf';
 import SangamPposter from '../DownloadFiles/SangamPoster.pdf';
-import Notice2 from './Notice2';
+import trailer from '../Images/Trailer.mp4';
 
 function Home() {
 
@@ -28,9 +27,15 @@ function Home() {
                     </a>
                 </div>
             </div>
-            <Notice2 />
-            <Notice1 />
             <img src={image} alt="none" className='home-img' />
+            <video autoPlay loop controls muted style={{
+                width: "90%",
+                paddingTop: "50px",
+                paddingBottom: "50px",
+                zIndex: "-1"
+            }} >
+                <source src={trailer} type='video/mp4' />
+            </video>
         </div>
     );
 }

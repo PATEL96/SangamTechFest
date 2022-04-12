@@ -1,12 +1,8 @@
 import React from 'react';
 import './Pages.css';
-import codewar from '../Images/Sangam Events/CodeWarNew.png';
-import webappdev from '../Images/Sangam Events/WebAppDevNew.png';
-import gamedev from '../Images/Sangam Events/GameDevNew.png';
-import proeditors from '../Images/Sangam Events/ProEditorsNew.png';
-import qrCode from '../Images/Sangam Events/qrCode.png';
-import { FormLink } from './Forms';
 import Rules from '../DownloadFiles/ComputerRules.pdf';
+import comp from '../Images/COMPUTERTF-FINAL.mp4';
+import it from '../Images/7_20220401_151300_0006.png';
 
 function ItCeAiDs() {
 
@@ -20,54 +16,16 @@ function ItCeAiDs() {
                     </button>
                 </a>
             </div>
-            <div className='pair-1'>
-                <div className='pro-editors'>
-                    <div className='data'>
-                        <img src={proeditors} alt='none' className='event-img' />
-                        <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
-                            Register Here
-                        </a>
-                    </button>
-                </div>
-                <div className='web-app-dev'>
-                    <div className='data'>
-                        <img src={webappdev} alt='none' className='event-img' />
-                        <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
-                            Register Here
-                        </a>
-                    </button>
-                </div>
-            </div>
-            <div className='pair-2'>
-                <div className='game-dev'>
-                    <div className='data'>
-                        <img src={gamedev} alt='none' className='event-img' />
-                        <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
-                            Register Here
-                        </a>
-                    </button>
-                </div>
-                <div className='codewar'>
-                    <div className='data'>
-                        <img src={codewar} alt='none' className='event-img' />
-                        <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
-                            Register Here
-                        </a>
-                    </button>
-                </div>
-            </div>
+            <img src={it} alt="none" style={{
+                width: "90%"
+            }} />
+            <video autoPlay loop controls muted style={{
+                width: "90%",
+                padding: "20px",
+                zIndex: "-1"
+            }} >
+                <source src={comp} type='video/mp4' />
+            </video>
         </div>
     );
 }

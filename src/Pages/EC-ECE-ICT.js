@@ -1,11 +1,8 @@
 import React from 'react';
 import './Pages.css';
-import electrogets from '../Images/Sangam Events/LazzoMazeNew.png';
-import iot from '../Images/Sangam Events/IotNew.png';
-import chakravyuh from '../Images/Sangam Events/ChakravyuhNew.png';
-import qrCode from '../Images/Sangam Events/qrCode.png';
-import { FormLink } from './Forms';
 import Rules from '../DownloadFiles/EERules.pdf';
+import elec from '../Images/ELECTRICALTF-FINAL.mp4';
+import ee from '../Images/WhatsApp Image 2022-04-09 at 11.52.16 AM.jpeg';
 
 function EcEceIct() {
 
@@ -19,47 +16,16 @@ function EcEceIct() {
                     </button>
                 </a>
             </div>
-            <div className='pair-1'>
-                <div className='electrogets'>
-                    <div className='data'>
-                        <img src={electrogets} alt='none' className='event-img' />
-                        <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <div className='note'>
-                        The Above Event has been changed to Lazzo Maze<br /><br />
-                        For Registartion in Lazzo-Maze Select Electrogets in The Form
-                    </div>
-                    <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
-                            Register Here
-                        </a>
-                    </button>
-                </div>
-                <div className='iot'>
-                    <div className='data'>
-                        <img src={iot} alt='none' className='event-img' />
-                        <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
-                            Register Here
-                        </a>
-                    </button>
-                </div>
-            </div>
-            <div className='pair-2'>
-                <div className='chakravyuh'>
-                    <div className='data'>
-                        <img src={chakravyuh} alt='none' className='event-img' />
-                        <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
-                            Register Here
-                        </a>
-                    </button>
-                </div>
-            </div>
+            <img src={ee} alt="none" style={{
+                width: "90%"
+            }} />
+            <video autoPlay loop controls muted style={{
+                width: "90%",
+                padding: "20px",
+                zIndex: "-1"
+            }} >
+                <source src={elec} type='video/mp4' />
+            </video>
         </div>
     );
 }

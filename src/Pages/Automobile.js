@@ -1,11 +1,8 @@
 import React from 'react';
 import './Pages.css';
-import dreamcar from '../Images/Sangam Events/DreamCarNew.png';
-import quiz from '../Images/Sangam Events/QuizNew.png';
-import autocad from '../Images/Sangam Events/AutoCadNew.png';
-import qrCode from '../Images/Sangam Events/qrCode.png'
-import { FormLink } from './Forms';
 import Rules from '../DownloadFiles/AutoMobileRules.pdf';
+import auto from '../Images/AUTOMOBILETF-FINAL.mp4';
+import aut from '../Images/2_20220401_151300_0001.png';
 
 function Automobile() {
 
@@ -19,43 +16,16 @@ function Automobile() {
                     </button>
                 </a>
             </div>
-            <div className='pair-1'>
-                <div className='dream-car'>
-                    <div className='data'>
-                        <img src={dreamcar} alt='none' className='event-img' />
-                        <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
-                            Register Here
-                        </a>
-                    </button>
-                </div>
-                <div className='quiz'>
-                    <div className='data'>
-                        <img src={quiz} alt='none' className='event-img' />
-                        <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
-                            Register Here
-                        </a>
-                    </button>
-                </div>
-            </div>
-            <div className='pair-2'>
-                <div className='auto-cad'>
-                    <div className='data'>
-                        <img src={autocad} alt='none' className='event-img' />
-                        <img src={qrCode} alt='none' className='qrImage' />
-                    </div>
-                    <button className='registartion-button'>
-                        <a href={FormLink} className='form-link' >
-                            Register Here
-                        </a>
-                    </button>
-                </div>
-            </div>
+            <img src={aut} alt="none" style={{
+                width: "90%"
+            }} />
+            <video autoPlay loop controls muted style={{
+                width: "90%",
+                padding: "20px",
+                zIndex: "-1"
+            }} >
+                <source src={auto} type='video/mp4' />
+            </video>
         </div>
     );
 }
