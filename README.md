@@ -11,7 +11,7 @@ In the project directory, you can run:
 Publishes the app on the Web\
 Open [https://patel96.github.io/SangamTechFest/](https://patel96.github.io/SangamTechFest/) to view it in your browser.
 
-Run the Same Script deploy any Updates for the Website\
+Run the Same Script deploy any Updates for the Website.
 
 ### `npm test`
 
