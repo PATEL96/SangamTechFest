@@ -1,7 +1,7 @@
 {
   "homepage": "https://PATEL96.github.io/SangamTechFest/",
-  "name": "college-fest",
-  "version": "0.1.0",
+  "name": "n",
+  "version": "y",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
@@ -43,5 +43,9 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
-  }
+  },
+  "description": "Sangam Tech Fest Main Code",
+  "repository": "https://github.com/PATEL96/SangamTechFest",
+  "author": "PATEL96",
+  "license": "Just Do Any Thing you want!!"
 }
